@@ -22,5 +22,9 @@ public class Verre : MonoBehaviour
     {
         transform.position += transform.right * 3 * Time.deltaTime;
     }
-    
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
 }
