@@ -10,6 +10,7 @@ public class Verre : MonoBehaviour
     public int Type;
     public int Points;
     public bool SubtractLife;
+    public Sprite Texture;
     
     // Start is called before the first frame update
     void Start()

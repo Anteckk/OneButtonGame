@@ -171,6 +171,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b97e2ab340c189d4d8444bec5c9beedd, type: 2}
   - {fileID: 11400000, guid: 8da94edef86003847b5d706921e3ff95, type: 2}
   verre: {fileID: -592121880124397855, guid: 2c112cfdacc1fb64b992a11e2d359fef, type: 3}
+  spawnSpeed: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

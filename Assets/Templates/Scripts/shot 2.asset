@@ -15,3 +15,4 @@ MonoBehaviour:
   type: 2
   point: 0
   subtractLife: 1
+  texture: {fileID: 21300000, guid: ba1a0545bbf738c4e911ed6f44d08317, type: 3}
