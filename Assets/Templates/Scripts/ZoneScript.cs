@@ -6,6 +6,8 @@ using UnityEngine;
 public class ZoneScript : MonoBehaviour
 {
     private bool hasDrink;
+
+    private Verre _verre;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +21,13 @@ public class ZoneScript : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         hasDrink = true;
+        _verre = other.GetComponent<Verre>();
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         hasDrink = false;
     }
@@ -32,5 +35,10 @@ public class ZoneScript : MonoBehaviour
     public bool GetHasDrink()
     {
         return hasDrink;
+    }
+
+    public Verre GetVerre()
+    {
+        return _verre;
     }
 }

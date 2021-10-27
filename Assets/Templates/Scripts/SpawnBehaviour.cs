@@ -15,7 +15,7 @@ public class SpawnBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating(nameof(SpawnVerre), 0f, 0.5f);
+        InvokeRepeating(nameof(SpawnVerre), 0f, 1f);
     }
 
     // Update is called once per frame
